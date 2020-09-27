@@ -1,0 +1,124 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background: url("images/male.jpg");
+	background-color: white;
+	font-family: 'Baloo Bhaina 2', cursive;
+}
+
+   .left{
+   	display: inline-block;
+   	/*border: 2px solid red;*/
+   	color: blue;
+   	position: absolute;
+   	left: 34px;
+   	top: 20px;
+   	width: 70px;
+   	height: 75;
+
+
+   }
+
+   .mid{
+   	display: block;
+    /*border: 2px solid blue;*/
+    color: pink;
+    margin: 20px auto;
+    width: 50%;
+   }
+
+   .right{
+   	display: inline-block;
+   	/*border: 2px solid yellow;5*/
+   	color: green;
+   	position: absolute;
+   	right: 34px;
+   	top: 20px;
+   	font-size: 12px;
+
+   }
+   .right button{
+   	padding: 0px 4px;
+   }
+   .navbar{
+   	display: inline-block;
+   }
+
+   .navbar li{
+   	display: inline-block;
+   	font-size: 20px;
+   }
+
+   .navbar li a{
+   	color: white;
+   	text-decoration: none;
+   	
+   	padding: 34px 23px;
+   }
+
+   .navbar li a:hover, .navbar li a.active {
+
+   	text-decoration: underline;
+   	color: grey;
+   }
+
+.left img{
+	width: 70px;
+
+}
+.left p{
+	text-align: center;
+	color: white;
+	margin: -5px 0px;
+	line-height: 20px;
+	font-size: 20px;
+
+}
+.container{
+	/*border: 2px solid green;*/
+    margin: 63px 10px;
+    padding: 25px 16px;
+    border-radius: 26px;
+    color: white;
+    width: 50%;
+}
+
+.btn {
+	font-family: 'Baloo Bhaina 2', cursive;
+	margin: 0px 4px;
+	background-color: black;
+	color: white;
+	padding: 4px 2px;
+	border: 2px solid grey;
+	border-radius: 10px;
+	cursor: pointer;
+}
+.btn:hover{
+	background-color: blue;
+}
+.form-group input{
+	text-align: center;
+    display: block;
+    padding: 3px 7px;
+    margin: 10px auto;
+    border: 2px solid green;
+    border-radius: 7px;
+    width: 353px;
+    font-size: 15px;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+.container h1{
+	text-align: center;
+	line-height: 20px;
+}
+
+.container button{
+	display: block;
+	margin: auto;
+	width: 371px;
+
+}
+.ra{
+	text-align: center;
+	color: #000000;
+}
